@@ -59,15 +59,33 @@ Check all NS records for zone transfers
 Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TXT)
 Perform common SRV Record Enumeration
 Top level domain expansion
+
 ## OUTPUT:
 
+### Google Hacking
+1.
+![exp4_1](https://github.com/user-attachments/assets/e367686d-e5c8-459c-8e4a-66333b74ac9a)
+2.
+![exp4_2](https://github.com/user-attachments/assets/9420bb55-a9f8-45a6-a350-7e35c3cc137a)
+3.
+![exp4_3](https://github.com/user-attachments/assets/d7111a78-d73c-46a2-80e7-29ad2c78e0c8)
+4.
+![exp4_4](https://github.com/user-attachments/assets/8d926180-924b-45b1-9e65-8f700642fabe)
+5.
+![exp4_5](https://github.com/user-attachments/assets/29ef99d0-f38b-4221-8da9-ca13eecd083e)
+6.
+![exp4_6](https://github.com/user-attachments/assets/e6a124c1-941b-44ac-ae03-7b8875771e54)
+7.
+![exp4_7](https://github.com/user-attachments/assets/affdebcc-04e3-49c7-a0b7-4f9e826e1fb0)
 
+### dnsrecon
+![exp4_8](https://github.com/user-attachments/assets/f22f7379-e70d-4d3e-b5c9-072d4f26ae74)
+![exp4_9](https://github.com/user-attachments/assets/00cde3a1-092e-4328-b9ee-d75812e9572d)
 
+### dnsenum
+![exp4_10](https://github.com/user-attachments/assets/0426fe32-781e-4822-ae7f-27ce228fade2)
 
-
-
-
-##dnsenum
+## dnsenum
 Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
 
 Get the host’s addresses (A record).
@@ -82,7 +100,7 @@ Write to domain_ips.txt file ip-blocks.
 This program is useful for pentesters, ethical hackers and forensics experts. It also can be used for security tests.
 
 
-##smtp-user-enum
+## smtp-user-enum
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
 
 
@@ -96,17 +114,9 @@ Telnet allows to connect to remote host based on the port no. For smtp port no i
 telnet <host address> 25 to connect
 and issue appropriate commands
   
- ##Output
-  
-  
-
 ## nmap –script smtp-enum-users.nse <hostname>
 
 The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server by issuing the VRFY, EXPN or RCPT TO commands. The goal of this script is to discover all the user accounts in the remote system.
-
-
-## OUTPUT:
-
 
 ## RESULT:
 The Google hacking keywords and enumeration tools were identified and executed successfully
